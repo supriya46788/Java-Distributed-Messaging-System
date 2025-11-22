@@ -1,0 +1,12 @@
+# Java compiled files
+*.class
+
+# VS Code settings
+.vscode/
+
+# IntelliJ settings
+.idea/
+*.iml
+
+# OS files
+.DS_Store
