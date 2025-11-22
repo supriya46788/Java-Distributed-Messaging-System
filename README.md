@@ -31,7 +31,7 @@ The system demonstrates how large-scale messaging platforms manage real-time com
 
 ## 🎯 Objectives
 
-This project was built to strengthen understanding of:
+This project is built to strengthen understanding of:
 
 * Networking (TCP/IP)
 * Concurrency and Java Threads
@@ -52,10 +52,10 @@ The system uses a simple distributed design:
                  +-----------+-----------+
                              |
      ---------------------------------------------------
-     |                    |                     |       
-+------------+     +-------------+      +--------------+
-|  CLIENT 1  |     |  CLIENT 2   |      |  CLIENT 3    |
-+------------+     +-------------+      +--------------+
+     |                       |                         |       
++------------+        +------------+          +------------+
+|  CLIENT 1  |        |  CLIENT 2  |          |  CLIENT 3  |
++------------+        +------------+          +------------+
 ```
 
 ---
